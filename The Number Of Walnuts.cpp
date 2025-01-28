@@ -4,7 +4,7 @@ int main()
 {
 	int x,y,z,start;
 	cin>>x>>y>>z;
-	start = x*y*z;
+	start = x*y*z;//设定限制
 	for(int i=1;i<=start;i++)
 	{
 		if(i%x==0 && i%y==0 && i%z==0)
